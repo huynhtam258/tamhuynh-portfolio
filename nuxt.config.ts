@@ -9,11 +9,11 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
   content: {
-    // highlight: {
-    //   theme: {
-    //     default: 'min-light',
-    //     dark: 'min-dark'
-    //   }
-    // }
+    highlight: {
+      theme: {
+        default: 'min-light',
+        dark: 'min-dark'
+      }
+    }
   }
 })
