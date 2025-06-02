@@ -1,5 +1,5 @@
 <template>
-  <div class="not-porse">
+  <div class="not-prose">
     <section v-if="pending">Loading...</section>
     <section v-else-if="error">Something went wrong... Try again!</section>
     <section v-else>
